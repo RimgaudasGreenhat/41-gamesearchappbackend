@@ -55,7 +55,7 @@ app.get("/api/games", async (req, res) => {
       console.error(error);
       return res
       .status(500)
-      .json({error: "Failed to fetch data from external API"});
+      .json({ error: "Failed to fetch data from external API" });
         
     }
 });
